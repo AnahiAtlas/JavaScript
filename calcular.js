@@ -6,6 +6,7 @@ var suma;
 var resta;
 var multiplicacion;
 var division;
+var resultado;
 
 
 //Sintaxis de una función de HTML//
@@ -28,7 +29,7 @@ function sumar() {
         inicio()
     }else {
         suma = numero_1 + numero_2;
-        console.log ("El resultado de la suma es: " + suma);
+        document.getElementById("resultado").innerHTML = ("El resultado de la suma es: " + suma);
     } 
 }
 
@@ -38,7 +39,7 @@ function restar() {
         //alert ("Por favor ingrese un número. Haga click en Iniciar.");
     }else {
         resta = numero_1 - numero_2;
-        console.log ("El resultado de la resta es: " + resta);
+        document.getElementById("resultado").innerHTML = ("El resultado de la resta es: " + resta);
     }
 }
 
@@ -48,7 +49,7 @@ function multiplicar() {
         //alert ("Por favor ingrese un número. Haga click en Iniciar.");
     }else {
         multiplicacion = numero_1 * numero_2;
-        console.log ("El resultado de la multiplicación es: " + multiplicacion);
+        document.getElementById("resultado").innerHTML = ("El resultado de la multiplicación es: " + multiplicacion);
     }
 }
 
@@ -58,7 +59,7 @@ function dividir() {
         //alert ("Por favor ingrese un número. Haga click en Iniciar.");
     }else {
         division = numero_1 / numero_2;
-        console.log ("El resultado de la división es: " + division);
+        document.getElementById("resultado").innerHTML = ("El resultado de la división es: " + division);
     }
 }
 
