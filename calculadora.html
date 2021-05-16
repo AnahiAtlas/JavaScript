@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Calculadora</title>
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="estilocalc.css">   
+<script src="calcular.js"></script>
+
+<title>Calculadora</title>
 
 </head>
 <body>
     
+    <div class="container">
+        <hr>
+        <h1>
+            Calculadora de JavaScript
+        </h1>
+        <hr>    
+        <button class="btn btn-success" onclick="inicio()">
+            Iniciar
+        </button>
+        <hr>    
+        <button class="btn btn-warning" onclick="sumar()">
+            Sumar
+        </button>
+        <button class="btn btn-warning" onclick="restar()">
+            Restar
+        </button>
+        <button class="btn btn-warning" onclick="multiplicar()">
+            Multiplicar
+        </button>
+        <button class="btn btn-warning" onclick="dividir()">
+            Dividir
+        </button>
+        <hr>
+
+        <h2 id="resultado">
+            El resultado de la operación es: 
+        </h2>
+
+        <hr>
+    </div>
+
+
+
+<script src="calcular.js"></script>
+
 </body>
 </html>

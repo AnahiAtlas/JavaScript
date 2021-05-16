@@ -14,6 +14,15 @@ var persona = {
     telefono: 1112345678,
 };
 
+var $ciudad = "Mendoza";
+
+let _dni = 123456789
+
+let cuentaAfip = "12880987654";
+
+const DNI = 123456789; // Una constante que no se modifica
+const FechaNacimiento = 24 
+
 console.log(persona)
 
 
